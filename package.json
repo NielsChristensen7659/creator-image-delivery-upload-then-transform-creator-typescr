@@ -1,0 +1,8 @@
+{
+  "name": "creator-image-delivery",
+  "private": true,
+  "type": "module",
+  "scripts": {"start": "node src/creator-image-service.ts", "test": "node src/creator-image-service.test.ts"},
+  "dependencies": {"zod": "^3.23.8"},
+  "devDependencies": {"typescript": "^5.6.3", "@types/node": "^22.0.0"}
+}
